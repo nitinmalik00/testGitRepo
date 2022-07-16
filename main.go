@@ -29,6 +29,6 @@ func main() {
 
 	dt := time.Now()
 	fmt.Printf("%s your age as on %d %s %d is %d and your ID is %s\n", name, dt.Day(), dt.Month(), dt.Year(), age, UID)
-
+	fmt.Printf("Dummy comment")
 	fmt.Println("Logging out...")
 }
